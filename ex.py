@@ -12,7 +12,7 @@ class Text:
                 text += letter2
             else:
                 text += i
-        self.text = text
+        return text
 
     def space_counter(self):
         x = 0
@@ -28,5 +28,4 @@ class Text:
         for i in array:
             text += i
             text += ' '
-        self.text = text
-        return self.text
+        return text
